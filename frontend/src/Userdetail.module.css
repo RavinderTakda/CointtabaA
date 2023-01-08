@@ -1,0 +1,25 @@
+
+
+.userdetail{
+
+display: flex;
+/* border: 1px solid blue; */
+display: grid;
+grid-template-columns: repeat(3,auto);
+gap: 10px;
+width: 100%;
+margin-top: 20px;
+
+}
+
+
+.userdetailbox{
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    background-color: aqua;
+    margin: auto;
+}
