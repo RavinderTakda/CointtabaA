@@ -10,7 +10,7 @@ import { Link } from "react-router-dom"
     const Fetchdata = () => {
 
 console.log("Dfsdfs")
-axios.post("http://localhost:4500/cointabdata").then((res)=>console.log(res)).catch((err)=>{
+axios.post("https://cointab-v0ke.onrender.com/cointabdata").then((res)=>console.log(res)).catch((err)=>{
     console.log(err)
 })
 
@@ -25,7 +25,7 @@ axios.post("http://localhost:4500/cointabdata").then((res)=>console.log(res)).ca
     const DeleteUser = () => {
 
         console.log("Delte")
-        axios.delete("http://localhost:4500/deletedata").then((res)=>console.log(res)).catch((err)=>{
+        axios.delete("https://cointab-v0ke.onrender.com/deletedata").then((res)=>console.log(res)).catch((err)=>{
             console.log(err)
         })
        

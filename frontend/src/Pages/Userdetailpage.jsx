@@ -18,7 +18,7 @@ if(count==0){
 
   setcount(prev=>prev+1)
 
-        await  axios.get("http://localhost:4500/").then((res)=>{setdata(res.data) 
+        await  axios.get(`https://cointab-v0ke.onrender.com?page=${page}`).then((res)=>{setdata(res.data) 
           console.log(res.data)}
           ).catch((err)=>{
               console.log(err)
