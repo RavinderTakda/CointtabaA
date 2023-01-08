@@ -4,7 +4,7 @@ require('dotenv').config()
 
 const connection = mongoose.connect(process.env.MongoURL)
 
-
+mongoose.set('strictQuery', false)
 const cointabSchema =new mongoose.Schema({
 
     cell:{type:String,required:true},
